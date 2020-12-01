@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+}
+
+.main {
+    background-color: #dadada;
+    /* background-color: #1a1918; */
+    height: 100vh;
+}
+
+.navBar {
+    height: 60px;
+    background-color: #1a1918;
+    display: flex;
+    justify-content: space-between;
+}
+
+#daniel {
+    color: white;
+    font-weight: lighter;
+    font-size: 27px;
+}
+
+#lancaster {
+    color: grey;
+}
+
+#nameLogo {
+    background-color: #1a1918;
+    border: none;
+    font-size: 29px;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+}
