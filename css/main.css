@@ -3,7 +3,7 @@ body {
 }
 
 .main {
-    background-color: #dadada;
+    background-color: #f3efef;
     /* background-color: #1a1918; */
     height: 100vh;
 }
@@ -13,12 +13,13 @@ body {
     background-color: #1a1918;
     display: flex;
     justify-content: space-between;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
 }
 
 #daniel {
     color: white;
     font-weight: lighter;
-    font-size: 27px;
+    font-size: 32px;
 }
 
 #lancaster {
@@ -28,6 +29,30 @@ body {
 #nameLogo {
     background-color: #1a1918;
     border: none;
-    font-size: 29px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.navBar button {
+    border: none;
+    background-color: #1a1918;
+    color: grey;
     font-family: Trebuchet MS, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.buttonMenu {
+    display: flex;
+    margin-right: 5px;
+}
+
+.buttonMenu button {
+    padding-left: 30px;
+}
+
+#logo {
+    width: 45px;
+    height: 40px;
 }
