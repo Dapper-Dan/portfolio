@@ -3,14 +3,13 @@ body {
 }
 
 .main {
-    background-color: #f3efef;
-    /* background-color: #1a1918; */
     height: 100vh;
+    background-image: url("../assets/images/koi_edit.jpg");
 }
 
 .navBar {
     height: 60px;
-    background-color: #1a1918;
+    background-color: #1e1e22;
     display: flex;
     justify-content: space-between;
     font-family: Trebuchet MS, Helvetica, sans-serif;
@@ -27,17 +26,17 @@ body {
 }
 
 #nameLogo {
-    background-color: #1a1918;
+    background-color: #1e1e22;
     border: none;
     font-size: 35px;
     display: flex;
     align-items: center;
-    margin-left: 5px;
+    margin-left: 50px;
 }
 
 .navBar button {
     border: none;
-    background-color: #1a1918;
+    background-color: #1e1e22;
     color: grey;
     font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 24px;
@@ -45,7 +44,7 @@ body {
 
 .buttonMenu {
     display: flex;
-    margin-right: 5px;
+    margin-right: 50px;
 }
 
 .buttonMenu button {
@@ -55,4 +54,28 @@ body {
 #logo {
     width: 45px;
     height: 40px;
+}
+
+.bio {
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#shrine {
+    width: 47%;
+}
+
+#bioP {
+    width: 40%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    align-self: center;
 }
