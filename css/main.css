@@ -3,13 +3,20 @@ body {
 }
 
 .main {
-    height: 100vh;
+    /* height: 100vh; */
     background-image: url("../assets/images/koi_edit.jpg");
+    /* background-attachment: fixed; */
+    /* min-height: 100%; */
+/* background-repeat: no-repeat; */
+background-attachment: fixed;
+/* background-position: center;
+background-size: cover; */
 }
 
 .main#projectsMain {
     background-image: url("../assets/images/dunesDay.jpg");
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navBar {
@@ -18,6 +25,8 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: Trebuchet MS, Helvetica, sans-serif;
+    position: sticky;
+    top: 0px;
 }
 
 .navBar#projectsNav {
@@ -86,9 +95,10 @@ body {
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0%, -50%);
+    margin-top: 50px;
+    /* position: absolute; */
+    /* top: 50%;
+    transform: translate(0%, -50%); */
 }
 
 #shrine {
@@ -96,7 +106,8 @@ body {
 }
 
 #camel {
-    width: 100%;
+    width: 40%;
+    border-radius: 50%;
 }
 
 .bioP {
@@ -133,6 +144,7 @@ body {
     width: 100%;
     text-align: center;
     font-size: 19px;
+    margin: auto;
 }
 
 .projectsShowcase  {
@@ -162,16 +174,17 @@ body {
 
 .projectsInfo {
     display: flex;
+    /* flex-direction: row; */
     margin-left: 50px;
     margin-right: 50px;
-    position: relative;
-    top: 7px;
+    /* position: relative; */
+    margin-top: 358px;
 }
 
 .camelBio {
     display: flex;
-    flex-direction: column;
-    width: 36%;
+    flex-direction: row;
+    /* width: 36%; */
     align-self: center;
 }
 
