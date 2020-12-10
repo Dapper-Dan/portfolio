@@ -27,6 +27,7 @@ background-size: cover; */
     font-family: Trebuchet MS, Helvetica, sans-serif;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .navBar#projectsNav {
@@ -107,7 +108,7 @@ background-size: cover; */
 
 #camel {
     width: 40%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 .bioP {
@@ -124,6 +125,7 @@ background-size: cover; */
 
 .contactLogoMenu img {
     width: 30px;
+    z-index: 0;
 }
 
 #linkedInLogo img {
@@ -143,7 +145,7 @@ background-size: cover; */
     color: white;
     width: 100%;
     text-align: center;
-    font-size: 19px;
+    font-size: 24px;
     margin: auto;
 }
 
@@ -151,14 +153,15 @@ background-size: cover; */
     color: white;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    margin-left: 70px;
+    flex-direction: row;
+    margin-top: 80px;
+    /* margin-left: 70px; */
 }
 
-.projectsBottomRow {
+/* .projectsBottomRow {
     display: flex;
     justify-content: center;
-}
+} */
 
 #valorPic {
     width: 100%;
@@ -174,11 +177,11 @@ background-size: cover; */
 
 .projectsInfo {
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
     /* position: relative; */
-    margin-top: 358px;
+    margin-top: 300px;
 }
 
 .camelBio {
@@ -189,30 +192,66 @@ background-size: cover; */
 }
 
 .audioContainer {
-    width: 43%;
+    width: 50%;
 }
 
 .mernContainer {
     width: 50%;
-    margin-left: 62px;
-    margin-top: 27px;
+    /* margin-left: 62px;
+    margin-top: 27px; */
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .projectsShowcase p {
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .projectsShowcase h1 {
     font-size: 20px;
     margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-end: 10px;
     text-align: center;
 }
 
-.projectsUpperRow {
+/* .projectsUpperRow {
+    display: flex;
+} */
+
+.valorContainer {
+    width: 50%;
+}
+
+.workExperience {
+    display: flex;
+    flex-direction: column;
+}
+
+#profPic {
+    margin: auto;
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 250px;
+}
+
+.workHistory {
     display: flex;
 }
 
-.valorContainer {
-    width: 43%;
+.workBio {
+    display: flex;
+    flex-direction: column;
+}
+
+.workBio p {
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.workBio h1 {
+    color: white;
+    margin: auto;
+    margin-top: 30px;
 }
