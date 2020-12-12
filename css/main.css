@@ -1,16 +1,19 @@
 body {
     margin: 0px;
+    background-color: #1e1e22;
 }
 
 .main {
-    /* height: 100vh; */
-    background-image: url("../assets/images/koi_edit.jpg");
-    /* background-attachment: fixed; */
-    /* min-height: 100%; */
-/* background-repeat: no-repeat; */
-background-attachment: fixed;
-/* background-position: center;
-background-size: cover; */
+    background: url("../assets/images/koi_edit.jpg") no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media (min-width: 1921px) {
+    .main {
+        width: 55%;
+        margin: auto;
+    }
 }
 
 .main#projectsMain {
@@ -30,19 +33,6 @@ background-size: cover; */
     z-index: 1;
 }
 
-.navBar#projectsNav {
-    background-color: rgb(199, 127, 69);
-}
-
-#projectsNav #nameLogo {
-    background-color: rgb(199, 127, 69);
-}
-
-#projectsNav .buttonMenu button {
-    background-color: rgb(199, 127, 69);
-    color: white;
-}
-
 #daniel {
     color: white;
     font-weight: lighter;
@@ -51,10 +41,6 @@ background-size: cover; */
 
 #lancaster {
     color: grey;
-}
-
-#projectsNav #lancaster {
-    color: rgb(83, 80, 80);
 }
 
 #nameLogo {
@@ -96,10 +82,7 @@ background-size: cover; */
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 50px;
-    /* position: absolute; */
-    /* top: 50%;
-    transform: translate(0%, -50%); */
+    padding-top: 50px;
 }
 
 #shrine {
@@ -108,7 +91,6 @@ background-size: cover; */
 
 #camel {
     width: 40%;
-    /* border-radius: 50%; */
 }
 
 .bioP {
@@ -155,13 +137,7 @@ background-size: cover; */
     display: flex;
     flex-direction: row;
     margin-top: 80px;
-    /* margin-left: 70px; */
 }
-
-/* .projectsBottomRow {
-    display: flex;
-    justify-content: center;
-} */
 
 #valorPic {
     width: 100%;
@@ -180,14 +156,12 @@ background-size: cover; */
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
-    /* position: relative; */
     margin-top: 300px;
 }
 
 .camelBio {
     display: flex;
     flex-direction: row;
-    /* width: 36%; */
     align-self: center;
 }
 
@@ -197,8 +171,6 @@ background-size: cover; */
 
 .mernContainer {
     width: 50%;
-    /* margin-left: 62px;
-    margin-top: 27px; */
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -213,10 +185,6 @@ background-size: cover; */
     margin-block-end: 10px;
     text-align: center;
 }
-
-/* .projectsUpperRow {
-    display: flex;
-} */
 
 .valorContainer {
     width: 50%;
@@ -236,6 +204,9 @@ background-size: cover; */
 
 .workHistory {
     display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .workBio {
@@ -254,4 +225,29 @@ background-size: cover; */
     color: white;
     margin: auto;
     margin-top: 30px;
+}
+
+.jobsContainer {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.jobsContainer h1 {
+    font-size: 20px;
+}
+
+.jobsContainer div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.jobsContainer div img {
+    align-self: center;
+    height: 212px;
+}
+
+.iatseContainer {
+    margin-left: 48px;
 }
