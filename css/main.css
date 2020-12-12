@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    background-color: #1e1e22;
+    background-color: #232327;
 }
 
 .main {
@@ -52,12 +52,15 @@ body {
     margin-left: 50px;
 }
 
-.navBar button {
+.navBar a {
     border: none;
     background-color: #1e1e22;
     color: grey;
     font-family: Trebuchet MS, Helvetica, sans-serif;
     font-size: 24px;
+    text-decoration: none;
+    align-self: center;
+    margin-left: 36px;
 }
 
 .buttonMenu {
@@ -118,9 +121,8 @@ body {
     width: 36px;
 }
 
-.contactLogoMenu button {
-    background-color: transparent;
-    border: none;
+.contactLogoMenu a {
+    text-decoration: none;
 }
 
 .quickNote {
