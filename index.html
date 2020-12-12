@@ -5,10 +5,11 @@
     <title>Daniel Lancaster</title>
   </head>
   <body>
+    <a id="topRef"></a>
     <div class="navBar">
-      <button id="nameLogo">
+      <a id="nameLogo" href="#topRef">
         <img src="./assets/images/foxLogo.png" id="logo"><span id="daniel">daniel</span><span id="lancaster"><b>lancaster</b></span>
-      </button>
+      </a>
       <div class="buttonMenu">
         <a id='aboutMe' href="#aboutRef">about me</a>
         <a id='projects' href="#projectsRef">projects</a>
@@ -53,21 +54,27 @@
           </div>
         </div>
         <div class="projectsShowcase">
-          <div class="audioContainer">
-            <h1>AudioCloud</h1>
-            <img id="audioPic" src="./assets/images/audioScreenShot.png">
-            <p> An audio platform and music sharing site consisting of listeners and creators developed in Ruby utilizing a Rails back-end and React in the front.</p>
-          </div>
-          <div class="mernContainer">
-            <h1>LOOT</h1>
-            <img id="lootPic" src="./assets/images/loot.png">
-            <p>A video game database consisting of user contributed in-game item recipes. With a team, the site was created in 7 days using JS, Express, and MongoDB.</p>
-          </div>
-          <div class="valorContainer">
-            <h1>Valor</h1>
-            <img id="valorPic" src="./assets/images/valorRecording.gif">
-            <p>A top-down roguelike video game in an old school arcade style built entirely in JavaScript and HTML.</p>
-          </div>
+          <a href="https://myaudiocloud.herokuapp.com/">
+            <div class="audioContainer">
+              <h1>AudioCloud</h1>
+              <img id="audioPic" src="./assets/images/audioScreenShot.png">
+              <p> An audio platform and music sharing site consisting of listeners and creators developed in Ruby utilizing a Rails back-end and React in the front.</p>
+            </div>
+          </a>
+          <a href="https://www.lootncraft.net/" id="centerProject">
+            <div class="mernContainer">
+              <h1>LOOT</h1>
+              <img id="lootPic" src="./assets/images/loot.png">
+              <p>A video game database consisting of user contributed in-game item recipes. With a team, the site was created in 7 days using JS, Express, and MongoDB.</p>
+            </div>
+          </a>
+          <a href="https://dapper-dan.github.io/Valor/">
+            <div class="valorContainer">
+              <h1>Valor</h1>
+              <img id="valorPic" src="./assets/images/valorRecording.gif">
+              <p>A top-down roguelike video game in an old school arcade style built entirely in JavaScript and HTML.</p>
+            </div>
+          </a>
         </div>
       </div>
       <a id="aboutRef"></a>

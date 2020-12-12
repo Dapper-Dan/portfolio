@@ -49,7 +49,8 @@ body {
     font-size: 35px;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 10px;
+    text-decoration: none;
 }
 
 .navBar a {
@@ -66,10 +67,6 @@ body {
 .buttonMenu {
     display: flex;
     margin-right: 50px;
-}
-
-.buttonMenu button {
-    padding-left: 30px;
 }
 
 #logo {
@@ -168,13 +165,11 @@ body {
 }
 
 .audioContainer {
-    width: 50%;
+    width: 100%;
 }
 
 .mernContainer {
-    width: 50%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
 }
 
 .projectsShowcase p {
@@ -189,7 +184,7 @@ body {
 }
 
 .valorContainer {
-    width: 50%;
+    width: 100%;
 }
 
 .workExperience {
@@ -279,3 +274,13 @@ body {
     width: 12%;
 }
 
+.projectsShowcase a {
+    text-decoration: none;
+    color: white;
+    width: 50%;
+}
+
+#centerProject {
+    margin-left: 20px;
+    margin-right: 20px;
+}
