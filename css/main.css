@@ -251,3 +251,29 @@ body {
 .iatseContainer {
     margin-left: 48px;
 }
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 121px;
+}
+
+.skillsContainer img {
+    width: 20%;
+    align-self: center;
+}
+
+#rails {
+    width: 15%;
+}
+
+#mongo {
+    width: 30%;
+}
+
+#js {
+    width: 12%;
+}
+
