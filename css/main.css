@@ -176,6 +176,10 @@ body {
     font-size: 13px;
 }
 
+.fenomContainer img {
+    max-width: 325px;
+}
+
 .projectsShowcase h1 {
     font-size: 20px;
     margin-block-start: 0;
